@@ -50,4 +50,3 @@ while True:
         break
     else:
         print(f"Opción {Buscar_posicion} no encontrada.")
-        
