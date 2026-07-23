@@ -1,1 +1,2 @@
 # Ejercicios-colaaborativos
+# El ejercisio trata que mediante una cantidad de horas trabajadas el empleado pueda saber cuando se gano ese dia, y eso lo hice teniendo en cuenta la tarifa tanto de las horas diurnas, como la tarifa de las horas nocturnas, lo hice con la clase Turno, el metodo de calcular_pago y el atributo de horas_trabajadas, y teniendo en cuenta que si el empleado se trabajo mas de 8 horas tener un sobrecargo del 10%, y eso lo va a saber ahi.
