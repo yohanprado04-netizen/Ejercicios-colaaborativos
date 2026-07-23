@@ -1,1 +1,2 @@
-# Ejercicios-colaaborativos
+Este ejercicio consiste en modelar un sistema agrícola sencillo para practicar herencia y sobrescritura de métodos en Python.
+A partir de una clase general llamada Cultivo (que registra la cosecha esperada), se crean dos clases hijas específicas: Arroz y Maiz. Estas subclases heredan los datos de la clase padre pero modifican el método de cuidados para mostrar las necesidades particulares de cada planta (como el tipo de riego o el control de plagas). Al ejecutar el código, se crean objetos para cada siembra y se imprime un reporte automático en la terminal con sus respectivas instrucciones.
