@@ -18,8 +18,7 @@ class TurnoDiurno(Turno):
         else:
             horas_extra = self.horas_trabajadas - 8
             pago = (8 * tdiurna) + (horas_extra * tdiurna * (1 + sobrecargo))
-       
-        print("Sobrecargo: ", horas_extra * tdiurna)
+        print("Sobrecargo: ", pago * sobrecargo)
         print("Pago del turno diurno: ", pago)
         
 
@@ -33,7 +32,7 @@ class TurnoNocturno(Turno):
             horas_extra = self.horas_trabajadas - 8
             pago = (8 * tnocturna) + (horas_extra * tnocturna * (1 + sobrecargo))
 
-        print("Sobrecargo: ", horas_extra * tnocturna)
+        print("Sobrecargo: ",  pago * sobrecargo)
         print("Pago Nocturno: $", pago)
 
 while True:
